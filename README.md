@@ -1,2 +1,5 @@
-# get-tapi-url
-是 ty 各个环境的 api 集合
+usage:
+```
+const getTapiUrl = require('get-api-url');
+console.log(getTapiUrl('dev01')); //http://tapi01.dev.tianyin.cn/api.do
+```
